@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.talbat-container{
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: 40px auto;
+
+}
+.talbat-title{
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.talbat-title h1{
+    font-weight:bold;
+    font-size: 32px;
+    color:#e02909;
+    margin-left: 100px;
+}
+.talbat-title p{
+    font-size: 20px;
+    color: #756f6f;
+}
+.talbat-link{
+    text-decoration: none;
+    color: white;
+    background-color: #e02909;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.7s ease;
+    
+}
+.cop-cop{
+    width: 90%;
+}
+.macs{
+  width: 100%;
+  height: 100vh;
+}
+.talbat-link:hover{
+    background-color: #e44529 ;
+}
+.talb-link{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    padding: 7px 25px;
+}
+.talb-don{
+    outline: 0;
+    border: 2px solid rgb(241, 238, 234);
+    border-radius: 10px;
+    width: fit-content;
+    height: 70px;
+    margin-top: 8px;
+    text-align: center;
+}
+.talbat{
+    background-color:white;
+    border-radius: 12px;
+    color: #000;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 22px;
+}
+.input-search{
+    /* display: block; */
+    padding: 13px 10px;
+    margin: 20px 13px;
+    color: #000;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border:  1px solid rgb(170, 162, 162) !important;
+    border-radius: 12px;
+    text-align: start;
+    
+}
+.talb-end{
+    
+    margin-top: 40px;
+    background-color: aliceblue;
+    width: 100%;
+    height: 60vh;
+    padding: 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+.talb-end h3{
+    font-size: 32px;
+    color: #000;
+}
+.talb-end p{
+    font-size: 23px;
+    margin: 12px 0;
+}
+.talb-icon{
+    font-size: 50px;
+    background-color: rgb(204, 196, 196);
+    color: #000;
+    width:  100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+
+}
+.talb-list{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-decoration: none;
+
+}
+.talb-l{
+    text-decoration: none;
+    color: #000 ;
+    font-size: 20px;
+}
+.talb-l:hover{
+    color: #f05b06;
+}
+.talb-link{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0;
+    background-color: transparent;
+
+    text-align: center;
+}
+.talb-link:hover{
+ color: #f05b06;
+
+}
+.talb-link .active{
+    color: #f05b06;
+}

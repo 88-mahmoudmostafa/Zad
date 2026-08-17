@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.well{
+direction: rtl;
+margin: 20px 0;
+}
+.well h1{
+    color: #d14e1a;
+    margin-bottom:40px ;
+    font-weight: 600;
+
+
+}
+.well-card{
+    width: 100%;
+}
+ .link-to,.link-tos{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px 5px;
+}
+.link-to{
+    color: #000;
+
+
+}
+.link-to:hover{
+    text-decoration: line-through;
+}
+.link-tos{
+    color: #f34906;
+}
+

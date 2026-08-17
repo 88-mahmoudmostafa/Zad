@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container-nour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 70vh;
+    background-color: rgb(20, 175, 175);
+}
+.nourss{
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.nour-title{
+    text-align: center;
+    margin-top: 70px;
+    
+  
+}
+.nour-title h2{
+  background-color: #f5dbb4;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 5px 13px;
+    margin: auto;
+    color: #e06218;
+    font-size: 25px;
+    margin-bottom: 25px;
+
+}
+.nour-title h1{
+    margin-bottom: 29px;
+    color: #dd5506;
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-mov{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 60vh;
+    text-align: center;
+    background-color: rgb(59, 45, 45);
+}
+.movss h1{
+ color: white;
+ font-weight: bold;
+ font-size: 40px;
+}
+.movss p{
+    color: rgb(148, 137, 137);
+    font-size: 22px;
+    width: 70%;
+    margin:40px auto;
+
+}
+.L-m{
+    background-color: #c98c08;
+    padding: 20px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.7s ease;
+   
+}

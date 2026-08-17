@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hold-QQ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 90vh;
+    flex-direction: column;
+    width: 50%;
+    background-color: whitesmoke ;
+    padding: 20px 30px;
+}
+.hold-qq{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.hold-QQ .icon-QQ{
+    width: 25%;
+    height: 22%;
+    background-color: green;
+    color: white;
+    border-radius: 50%;
+}
+.hold-QQ h3{
+    font-size: 32px;
+    font-weight:bold;
+    margin: 15px 0;
+}
+.hold-QQ h4{
+    font-size: 20px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+.fr-QQ{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border: 1px solid #ff9a00;
+    border-radius: 10px ;
+    
+  padding: 5px 10px;
+  margin: 25px 0
+
+}
+.pp-qq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fr-QQ h4{
+    color: #686363;
+    font-size: 15px;
+}
+.fr-QQ p{
+    background-color: green;
+    color: white;
+    padding: 3px 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    /* margin: 20px 0; */
+}
+.fr-QQ span{
+   color: #d13c0f;
+   font-size: 30px;
+   font-weight: 500;
+   direction: rtl;
+   margin-bottom: 5px;
+}
+.link-qq,.link-QQ{
+     text-decoration: none;
+     margin-right: 10px;
+
+     padding: 8px 20px;
+     border-radius: 15px;
+     font-size: 22px;
+     margin-top: 28px;
+
+}
+.link-QQ{
+    background-color: white;
+    border: 1px solid #e2520f;
+    color: #e2520f;
+    transition: 0.7s ease;
+}
+.link-QQ:hover{
+    background-color: #f5b4a0;
+}
+.link-qq{
+    background-color: #d13c0f;
+    color: white;   
+}
+.link-qq:hover{
+    background-color:#fa8865 ;
+}

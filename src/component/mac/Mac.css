@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-mac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+}
+.mac-title{
+    text-align: center;
+    margin-bottom: 25px;
+}
+card{
+    border-radius: 15px;
+}
+.mac-title h1{
+    color: #ca4b19;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.mac-title p{
+    color: #a59b9b;
+    font-size: 22px;
+    font-weight: 500;
+} 
+.card-p{
+    direction: rtl;
+}
+.card-p h2{
+    font-weight: 700;
+    color: #000;
+    font-size: 27px;
+}
+.card-p p,small{
+    color: #444444;
+    font-size: 17px;
+}
+.hos{
+    margin: 10px 13px;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+}
+.image{
+    width:90%;
+    height: 90px;
+    border-radius: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}

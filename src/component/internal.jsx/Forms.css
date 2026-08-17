@@ -1,0 +1,97 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.f-ii{
+     width: 100%;
+     background-color:rgb(168, 163, 163)  ;
+     padding: 12px 13px; 
+     color: #ff9a00;
+    font-size: 22px;
+   margin-bottom: 16px;
+  
+}
+
+
+
+ .out-i ,.out-iee{
+    padding: 12px 33px;
+    width: 100%;
+   margin: 7px auto;
+    border-radius: 12px;
+     border: none !important;
+     outline: none !important;
+     border: 1px solid rgb(150, 145, 145) !important;
+}
+
+.out-i:focus,.input-accy:focus,.out-iee:focus{
+    border: none !important;
+    border: 3px solid rgb(235, 49, 16) !important;
+}
+.input-accy{
+    width: 100%;
+    padding: 12px 10px;
+    border-radius: 12px;
+    border: none !important;
+    outline:none !important;
+    border: 1px solid rgb(161, 159, 159) !important;
+}
+.open-menu{
+    width: 100%; 
+    /* margin:10px 40px;  */
+    margin-top: -20px;
+    padding: 10px 10px;
+    height: 20%;
+    border: none !important;
+    outline: none !important;
+  direction: rtl !important;
+  text-align: right !important;
+  background-position: left12px center !important;
+  padding-left: 15px !important;
+  padding-right: 35px !important;
+}
+
+.open-open{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+
+}
+.sel-open{
+    padding: 15px 12px;
+}
+.form-btn{
+    margin: 15px 25px;
+    background-color: #ff9a00;
+    color: white;
+    border-radius: 10px;
+    padding:6px 12px ;
+    font-size: 22px;
+    
+
+}
+.out-iee{
+    /* padding-right:26%; */
+    text-align: left ;
+    direction: rtl;
+}
+.booxx{
+    position: relative;
+    
+
+}
+.c-c{
+    width: 5%;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(233, 230, 226);
+    top: 22%;
+    right: 4%;
+    font-size: 27px;
+    color: #000;
+}

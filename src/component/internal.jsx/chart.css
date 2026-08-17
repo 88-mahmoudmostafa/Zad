@@ -1,0 +1,38 @@
+.chart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 70vh;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 70%;   
+    text-align: center; 
+    overflow: hidden;
+    direction: rtl;
+}
+.chart h2{
+    background-color: #e25c0e;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-top-right-radius: 20px;
+    text-align: start;
+     
+}
+.chart p{
+    background-color:rgb(238, 223, 223);
+    color: #000;
+    width: 100%;
+    text-align: start;
+    padding: 12px 15px;
+    font-size: 28px;
+     transition: 0.7s ease;
+}
+.chart p:hover{
+    background-color: aliceblue;
+}
+.chart-p{
+    border-bottom-left-radius: 20px;
+}

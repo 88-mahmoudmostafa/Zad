@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .drop-stff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    background-color: azure;
+    padding: 26px 17px;
+} 
+.cccc{
+    width: 100%;
+}
+.contant-stf{
+    width: 100%;
+}
+.stf-ti span{
+   margin-bottom: 30px;
+   background-color: bisque;
+   color: #ee5e0b;
+   padding: 5px 12px;
+   border-radius: 10px;
+}
+.stf-ti h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 5px;
+}
+.stf-ti p{
+    color: rgb(145, 136, 136);
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+.mone{
+    /* direction: rtl; */
+    background-color: whitesmoke;
+    border-radius: 20px;
+    color: #000;
+    border: none;
+    outline: 0;
+    margin-bottom: 15px;
+    width: 80vw;
+    max-width: 80vw;
+    
+}
+.mov-stf{
+font-size: 40px;
+color: #000;
+background-color: whitesmoke;
+
+}
+.pro-stf{
+    font-size: 20px;
+    color: #949090;
+    background-color: whitesmoke;
+}
+.zbzb{
+    font-size: 60px;
+}
+.sel-stf{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+
+}
+.sel-stf h2 {
+  font-size: 25px;
+  margin-left: 90px;
+
+}
+.contant-stf{
+    direction: rtl;
+    width: 100%;
+}
+.accordion-button:focus{
+box-shadow: none !important;
+border-color:transparent !important ;
+background-color: transparent !important;  
+}
+.accordion-button::after{
+    position: absolute;
+    left: 20px;
+}

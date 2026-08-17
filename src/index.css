@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body,#root{
+  max-width: 100%;
+  width: 100% !important;
+  height: 100%;
+}
+/* إخفاء شريط Google Translate العلوي */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+/* منع المساحة اللي بيتركها الشريط */
+body {
+  top: 0 !important;
+}
+
+/* إخفاء عناصر Google الإضافية */
+.goog-te-gadget {
+  font-size: 0 !important;
+}
+
+/* إخفاء النص واللينك الافتراضي */
+.goog-te-gadget span {
+  display: none !important;
+}
+iframe.goog-te-banner-frame {
+  display: none !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}

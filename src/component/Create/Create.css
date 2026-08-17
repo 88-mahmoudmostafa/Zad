@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.popopo{
+    width: 100%;
+      background-color: white;
+}
+.mama{
+    text-align: end;
+    margin: 15px 16px;
+}
+.mama p{
+    font-size: 20px ;
+    color: rgb(167, 164, 164);
+}
+.vvv{
+    
+    margin: 12px 0px;
+    font-size: 23px;
+    padding: 14px 0px;
+}
+.vvv span{
+    margin: 0 7px;
+}
+.input-selt{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   flex-direction: column;
+}
+.input-selt .open,.openss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: start; */
+    /* direction: rtl; */
+    width: 90%;
+    margin: 10px 0;
+    border-radius: 10px;  
+    font-size: 20px;  
+    font-size: 22px;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 3px rgb(238, 234, 231) solid !important;
+}
+.open{
+      padding: 13px 10%;
+      direction: rtl;
+      text-align: start;
+}
+.open:focus{
+    border: none !important;
+     border: 3px solid #e65022 !important;
+     color: #000;;
+}
+.openss{
+  padding: 13px 10px;
+ /* padding-left: 0; */
+  text-align: left;
+  direction: ltr;
+}
+.openss:focus{
+      border: none !important;
+     border: 3px solid #e65022 !important;
+     color: #000;;
+}
+.pans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:26px auto;
+     background-color: rgb(64, 64, 243);
+     width: 90%;
+    color: white;    
+    padding:15px 10px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight:bold;
+    transition: 0.7s ease;
+
+}
+.pans:hover{
+    /* background-color: rgb(79, 79, 160); */
+    transform: translateY(-10px);
+}
+.ggg{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   background-color: white;
+   border: 1px solid#6b6363;
+   width: 90%;
+   padding: 15px 10px;
+   font-weight: 700;
+   font-size: 20px;
+   border-radius: 30px;
+   
+}
+.hrrr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    /* border-radius: 50px; */
+}
+hr{
+    width: 30%;
+}
+.LL{
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(99, 99, 216);
+    border-radius: 20px;
+    padding: 12px 17px;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.7s ease;
+}
+.LL:hover{
+    transform: translateY(-10px);
+}
+.spsp{
+    font-size: 16px;
+    color: white;
+    margin: 20px 10px;
+}
+ .box{
+    position: relative;
+    width: 100%;
+
+ }
+ .lobs{
+    position: absolute;
+    top: 28%;
+    right: 25%;
+    font-size: 17px;
+ }
+ .loobs{
+    position: absolute;
+    top: 28%;
+    right: 33%;
+    
+ }
+ .box .open:focus + .lobs, .open:not(:placeholder-shown)+ .lobs{
+    top:2%;
+    background-color: white;
+    color: #c9300a;
+ }
+.ton{
+    font-size: 22px;
+   margin: 0 7px;
+    font-weight: 400;
+}
+.tonn{
+    color:red;
+    margin: 0 12px
+}
+.box .p-i{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    font-size: 24px;
+
+}
+.task{
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-size: 24px;
+    cursor:pointer;
+}
+.f-c{
+    width: 8%;
+    margin-top: -3px;
+    background-color: rgb(158, 151, 151);
+    color: rgb(39, 36, 36);
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    font-size: 10px;
+    text-align: center;
+}
+.op{
+    font-size: 10px;
+}
+.i-tem{
+    font-size: 20px;
+    color:#000;
+    background-color: aliceblue;
+}
+.i-cont{
+    font-size: 22px;
+}
+.mm-clic{
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float{
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+@media (max-width:991px) {
+    .open{
+        padding: 13px 13%;
+        
+    }
+    .task{
+        left: 50px;
+    }
+    .f-c{
+        height: 35%;
+        top: 35%;
+        right: 5%;
+        width: 10%;
+
+    }
+ 
+}

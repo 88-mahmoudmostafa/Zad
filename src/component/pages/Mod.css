@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card-contant{
+    transition: 0.7s ease;
+    
+}
+.card-contant:hover{
+    transform: translateY(-15px);
+}
+.img-card{
+    height: 250px;
+}
+.link-card,.link-cardcom{
+    direction: ltr;
+    text-decoration: none;
+    background-color: #ff8902;
+    color: white;
+    border-radius: 12px;
+    padding: 8px 8px;
+    gap: 1px;
+    margin: 2px 0px;
+    transition: 0.7s ease;
+    font-size: 22px;
+}
+
+.link-card:hover{
+    transform:translateY(-5px);
+
+}
+.pros-card{
+    direction: rtl;
+}
+.pros-card span{
+    color: rgb(158, 150, 150);
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.pros-card p{
+    color: #000;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 8px;
+}
+.start{
+    color: #e79314;
+    display: inline-block;
+    margin: 15px 2px;
+    font-size: 26px;
+}
+.pros-card h4{
+    margin: 20px 0;
+    font-size: 30px;
+    color: #e67e07;
+
+}
+.link-cardcom{
+    background-color: green;
+    color: white;
+}

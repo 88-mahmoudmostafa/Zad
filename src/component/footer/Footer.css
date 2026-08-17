@@ -1,0 +1,147 @@
+.nars{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 100%;
+    
+}
+.nars::before{
+content: '';
+position: absolute;
+bottom: 0;
+left:20px;
+width: 40px;
+height: 3px;
+top: 40px;
+background-color: #d15217;
+}
+.pros{
+    margin: 30px 5px;
+    color: #8b8484;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.help{
+    
+}
+.thes{
+    width: 40%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    align-items: center;
+    font-weight: 300;
+    color: rgb(151, 149, 149);
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.thes a{
+    text-decoration: none;
+    color:#999292;
+    transition: 0.9s ease;
+
+
+}
+.thes a::before{
+   content: '';
+   position: absolute;
+   right:0;
+   top: 50%;
+   width: 7px;
+   height: 7px;
+   opacity: 0;
+   transform: translateY(-50%);
+   border-radius: 50%;
+   background-color: #ff9a00;
+   transition:  0.7s ease;
+}
+.thes a:hover{
+    
+    margin-left: -5px;
+    color: white;
+    font-weight: 700;
+}
+.thes a:hover::before{
+ opacity: 1;
+ color: white;
+}
+.icon{
+    display: inline-block;
+    font-size:20px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+.icon-fas, .icon-ins{
+    background-color: lab(62.62% 4.05 1.45);
+    padding: 6px 25px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+   transition: 0.7s ease;
+}
+.icon-fas:hover{
+ background-color: blue;
+ transform: translateY(-10px);
+}
+.icon-ins:hover{
+    background-color: rgb(216, 89, 89);
+    transform: translateY(-20px);
+}
+.help{
+    background-color: #4b4949;
+    padding: 35px 12px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: -5px;
+}
+.ph,.em{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 20px 10px;
+    gap: 25px;
+  
+}
+.phone,.email{
+    color: #d15217;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.ii:hover{
+   background-color: #f5a75f;
+}
+.ii{
+    background-color: #91756b;
+    padding: 10px 15px;
+    border-radius: 10px;
+     transition: 0.7s ease;
+     
+    
+} 
+.com{
+    font-weight: 100;
+    font-size: 12px;                                                                                                                                                                                                            
+}
+.so{
+    margin-left: 9px;
+}
+.oo{                                                                                                                                                            
+    color: #999191;
+}
+.ccc a{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color:rgb(175, 170, 170)  ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   rgb(206, 187, 187);
+}
+.ccc p{
+    color: rgb(151, 149, 149);
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.walead-title{
+    direction: rtl;
+}
+
+.walead-title h2{
+    color: #ff9a00;
+    font-weight: 700;
+    margin: 12px 0;
+}
+.walead-title p{
+    color: rgb(70, 67, 67);
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin:25px auto;
+     margin-top: 8%;
+     background-color: whitesmoke;
+     width: fit-content;
+     padding: 20px 20px;
+}
+.jj{
+    width: 100%;
+}
+.contant{
+    text-align: center;
+    margin: 10px 15px;
+    
+}
+.contant p{
+    font-size: 20px;
+    margin: 20px 8px;
+    color: rgb(131, 128, 128);
+}
+h2 .contant{
+   font-weight: 800;
+   margin: 20px 10px;
+}
+Form.Control{
+    border: none;
+    outline: 0;
+}
+.input-t{
+    text-align: end;
+    width: 90%;
+    padding: 20px 8%;
+    font-size: 20px;
+    border: 2px solid #a09a99;
+    
+    border-radius: 10px;
+    border: none !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+
+   
+}
+
+.ns{
+    width: 100%;
+    margin:20px auto;
+    text-align: center;
+    background-color: #ff9a00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.7s ease;
+}
+.ns:hover{
+    background-color: #db9c3d;
+}
+.box{
+    position: relative;
+
+
+}
+.basg{
+ position: absolute;
+ top: 17%;
+ right: 20%;
+ font-size: 20px;
+ color: #000;
+ font-weight: 500;
+
+}
+
+.lobse{
+    position: absolute;
+    top: 22%;
+    right: 20%;
+    font-size: 20px;
+}
+
+.box .input-t:focus + .lobse, .input-t:not(:placeholder-shown)+ .lobse{
+top: -14%;
+background-color: white;
+color: #e65022;
+
+}
+.box .input-t:focus + .basg, .input-t:not(:placeholder-shown)+ .basg{
+top: -14%;
+background-color: white;
+color: #e65022;
+}
+
+
+.ic{
+    margin-left: 10px;  
+   
+}
+.input-t:focus{
+     border: 3px solid #e65022 !important;
+     color: #e65022;
+}
+.p-i{
+    position: absolute;
+    right: 13%;
+    top: 22%;
+    font-size: 22px;
+    /* color: #db9c3d; */
+
+}
+.box:focus-within .p-i{
+    
+     color: #e65022 
+}
+

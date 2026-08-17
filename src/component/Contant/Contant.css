@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+}
+.mzz {
+       background-color:white;
+ display: flex;
+ align-items: center;
+ justify-content: start;
+ margin: auto;
+ height: 100vh;
+ direction: rtl;
+ padding: 15px 30px;
+}
+.hoo h2{
+ font-size:40px;
+ font-weight: bold;
+ margin-bottom: 45px
+}
+.hoo p{
+    color: rgb(145, 124, 124);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family:sans-serif;
+
+}
+.mbtn{
+    background-color: #dd5d3d;
+    padding: 10px 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+.mbtn:hover{
+    background-color:#ee7238;
+}
